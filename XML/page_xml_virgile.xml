@@ -1,0 +1,58 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE match SYSTEM "page1.dtd">
+<!--XML by Krotlinski Virgile-->
+<match>
+    <date day='25' month='août' year='2024'/>
+    <lieu>
+        <ville>Nantes</ville>
+        <stade>
+            <capacite>35332</capacite>
+            <nom>La Beaujoire</nom>
+        </stade>
+    </lieu>
+    <equipes>
+        <club nom="AJ Auxerre" id="AJA" capitaine="Jubal Junior">
+            <entraineur>Christophe Pelissier</entraineur>
+        </club>
+        <club nom="FC Nantes" id="FCN" capitaine="Jean-Charles Castelletto">
+            <entraineur>Antoine Kombouaré</entraineur>
+        </club>
+    </equipes>
+    <score>
+        <marque>
+            2-0
+        </marque>
+        <buteur time="14">
+            <joueur id="Moses_FCN" club="FCN">
+                <nom>Moses</nom>
+                <prenom>Simon</prenom>
+                <numero>27</numero>
+                <poste>Ailier</poste>
+            </joueur>
+            <description>
+                Un dégagement de Chirivella profite un peu par hasard à Simon qui peut défier Osho en un-contre-un. 
+                Le Nigérian entre dans la surface, repique dans l'axe et tire du droit.Grosse faute de main de Léon, 
+                le ballon termine dans les filets auxerrois.
+            </description>
+        </buteur>
+        <buteur time="90+6">
+            <joueur id="Guirassy_FCN" club="FCN">
+                <nom>Guirassy</nom>
+                <prenom>Bahereba</prenom>
+                <numero>62</numero>
+                <poste>Défenseur central</poste>
+            </joueur>
+            <description>
+                Contre-attaque nantaise. Guirassy part du rond central, élimine Jubal et accélère.
+                A l'entrée de la surface, il crochète derrière sa jambe d'appui pour laisser Osho sur les fesses,
+                puis ajuste Léon d'un tir du droit.
+            </description>
+        </buteur>
+    </score>
+    <infos competition="Ligue_1" format="normal">
+        <arbitre> Gaël Angoula </arbitre>
+        <spectateurs>31077</spectateurs>
+        <fait-de-jeu>Carton rouge à la 53ème minute pour l'attaquand d'Auxerre Ado Onaiwu.</fait-de-jeu>
+    </infos>
+
+</match>

@@ -1,0 +1,46 @@
+<!ENTITY % day "(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31)">
+<!ENTITY % month "(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)">
+<!--Fait par Rémi Millot et Virgile Krotlinski-->
+<!ELEMENT match (date, lieu, equipes, score, infos)>
+
+<!ELEMENT date EMPTY>
+<!ATTLIST date
+          day %day; #REQUIRED
+          month %month; #REQUIRED
+          year CDATA #REQUIRED>
+
+<!ELEMENT lieu (ville, stade)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT stade (capacite, nom)>
+<!ELEMENT capacite (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+
+<!ELEMENT equipes (club+)>
+<!ELEMENT club (entraineur)>
+<!ATTLIST club
+          id ID #REQUIRED
+          nom CDATA #REQUIRED
+          capitaine CDATA #REQUIRED>
+<!ELEMENT entraineur (#PCDATA)>
+
+<!ELEMENT score (marque, buteur*)>
+<!ELEMENT marque (#PCDATA)>
+<!ELEMENT buteur (joueur,description?)>
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST buteur
+          time CDATA #REQUIRED>
+<!ELEMENT joueur (nom, prenom, numero, poste)>
+<!ATTLIST joueur
+          id ID #REQUIRED
+          club IDREF #REQUIRED>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT poste (#PCDATA)>
+
+<!ELEMENT infos (arbitre, spectateurs,fait-de-jeu*)>
+<!ATTLIST infos
+          competition (amical | LDC | Ligue1 | CdF | CdL) "Ligue1"
+          format (90min | prolongation | tirs-au-but) "normal">
+<!ELEMENT arbitre (#PCDATA)>
+<!ELEMENT spectateurs (#PCDATA)>
+<!ELEMENT fait-de-jeu (#PCDATA)>

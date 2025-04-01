@@ -1,0 +1,56 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE match SYSTEM "page1.dtd">
+<!--Fait par Rémi-->
+<match>
+    <date day="16" month="avril" year="2023"/>
+    <lieu>
+        <ville>Auxerre</ville>
+        <stade>
+            <capacite>18541</capacite>
+            <nom>Abbé-Deschamps</nom>
+        </stade>
+    </lieu>
+    <equipes>
+        <club  id="AJA" nom="AJauxerre" capitaine="Birama Touré">
+            <entraineur>Christophe Pelissier</entraineur>
+        </club>
+        <club id="FCN" nom="FCNantes" capitaine="Alban Lafont">
+            <entraineur>Antoine Kombouaré</entraineur>
+        </club>
+    </equipes>
+    <score>
+        <marque>2-1</marque>
+        <buteur time ="4">
+            <joueur id="Jubal_aja" club="AJA">
+                <nom>Jubal</nom>
+                <prenom>Jr</prenom>
+                <numero>4</numero>
+                <poste>défenseur</poste>
+            </joueur>
+            <description>But sur penalty</description>
+        </buteur>
+        <buteur time ="43">
+            <joueur id="Da_Costa_AJA" club="AJA">
+                <nom>Da Costa</nom>
+                <prenom>Nuno</prenom>
+                <numero>9</numero>
+                <poste>attaquant</poste>
+            </joueur>
+            <description>erreur du gardien</description>
+        </buteur>
+        <buteur time ="54">
+            <joueur id="Mostafa_FCN" club="FCN">
+                <nom>Mostafa</nom>
+                <prenom>Mohamed</prenom>
+                <numero>31</numero>
+                <poste>defenseur</poste>
+            </joueur>
+            <description>But de la tête</description>
+        </buteur>
+    </score>
+    <infos competition="Ligue_1" format="normal">
+        <arbitre>Eric Wattellier</arbitre>
+        <spectateurs>15,714</spectateurs>
+        <fait-de-jeu></fait-de-jeu>
+    </infos>
+</match>

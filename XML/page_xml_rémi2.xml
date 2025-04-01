@@ -1,0 +1,92 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE match SYSTEM "page1.dtd">
+<!--Fait par Rémi-->
+<match>
+    <date day="23" month="janvier" year="2018"/>
+    <lieu>
+        <ville>Nantes</ville>
+        <stade>
+            <capacite>38500</capacite>
+            <nom>La Beaujoire</nom>
+        </stade>
+    </lieu>
+    <equipes>
+        <club  id="FCN" nom="FCNantes" capitaine="Valentin Rongier">
+            <entraineur>Claudio Ranieri</entraineur>
+        </club>
+        <club id="AJA" nom="AJauxerre" capitaine="Birama Touré">
+            <entraineur>Pablo Correa</entraineur>
+        </club>
+    </equipes>
+    <score>
+        <marque>3-4</marque>
+        <buteur time ="6">
+            <joueur id="Konaté_aja" club="AJA">
+                <nom>Konaté</nom>
+                <prenom>Brahim</prenom>
+                <numero>6</numero>
+                <poste>Millieu de terrain</poste>
+            </joueur>
+            <description>But du droit</description>
+        </buteur>
+        <buteur time ="32">
+            <joueur id="Pallois_FCN" club="AJA">
+                <nom>Pallois</nom>
+                <prenom>Nicolas</prenom>
+                <numero>4</numero>
+                <poste>défenseur</poste>
+            </joueur>
+            <description>But contre son camps</description>
+        </buteur>
+        <buteur time ="34">
+            <joueur id="Ayé_AJA" club="AJA">
+                <nom>Ayé</nom>
+                <prenom>Floriant</prenom>
+                <numero>11</numero>
+                <poste>attaquant</poste>
+            </joueur>
+            <description>But du gauche</description>
+        </buteur>
+        <buteur time ="38">
+            <joueur id="Thomasson_FCN" club="FCN">
+                <nom>Thomasson</nom>
+                <prenom>Adrien</prenom>
+                <numero>8</numero>
+                <poste>Millieu de terrain</poste>
+            </joueur>
+            <description>But du gauche</description>
+        </buteur>
+        <buteur time ="51">
+            <joueur id="Dubois_FCN" club="FCN">
+                <nom>Léo</nom>
+                <prenom>Ducbois</prenom>
+                <numero>15</numero>
+                <poste>défenseur</poste>
+            </joueur>
+            <description>But du gauche</description>
+        </buteur>
+        <buteur time ="65">
+            <joueur id="Thomasson_FCN2" club="FCN">
+                <nom>Thomasson</nom>
+                <prenom>Adrien</prenom>
+                <numero>8</numero>
+                <poste>Millieu de terrain</poste>
+            </joueur>
+            <description>But du droit</description>
+        </buteur>
+        <buteur time ="76">
+            <joueur id="Sangaré_AJA" club="AJA">
+                <nom>Sangaré</nom>
+                <prenom>Ibrahim</prenom>
+                <numero>7</numero>
+                <poste>attaquant</poste>
+            </joueur>
+            <description>But du droit</description>
+        </buteur>
+    </score>
+    <infos competition="Coupe_de_France" format="normal">
+        <arbitre>Amaury Delerue</arbitre>
+        <spectateurs>36,567</spectateurs>
+        <fait-de-jeu>élimination du FCN de la Coupe de France</fait-de-jeu>
+    </infos>
+</match>

@@ -1,0 +1,20 @@
+html{
+    background-color: white;
+}
+body{
+    text-align: center;
+}
+ol{
+    margin-top: 30px;
+    list-style-type: none;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+}
+ul{
+    margin-top: 20px;
+}
+head{
+    margin-top: 30px;
+}

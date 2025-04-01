@@ -1,0 +1,15 @@
+html{
+    background: whitesmoke;
+}
+h1{
+justify-content: center;
+}
+body{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 20px;
+}

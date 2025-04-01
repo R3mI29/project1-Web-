@@ -1,0 +1,25 @@
+html{
+    background-color: white;
+    align-items: center;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    text-align: center;
+    width: 50%;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.tableau{
+    display: flex;
+    justify-content: center;
+}
